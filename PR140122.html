@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible"     content="IE=edge">
+  <meta name="viewport" content="width: device-width; initial-scale=1">
+  
+  <title> Our Menu </title>
+  <style> 
+    *{
+    border-sizing: border-box;
+    }
+    h1 {
+  text-align: center;
+  font-family: comic sans ms;
+}
+.Chicken {
+  text-align: left;
+  margin: 30px 30px 30px 35px;
+  padding: 10px;
+  width: 325px;
+  height: 200px;
+  background-color: grey;
+  border: 2px solid black;
+  position: relative;
+  float: left; 
+}
+.Beef {
+  text-align: left;
+  margin: 30px 30px 30px 35px;
+  padding: 10px;
+  width: 325px;
+  height: 200px;
+  background-color: grey;
+  border: 2px solid black;
+  position: relative;
+  float: left; 
+}
+.Sushi {
+  text-align: left;
+  margin: 30px 30px 30px 35px;
+  padding: 10px;
+  width: 325px;
+  height: 200px;
+  background-color: grey;
+  border: 2px solid black;
+  position: relative;
+  float: left; 
+}
+
+h2 {
+  text-align: center;
+  background-color: orange;
+  padding: 5px;
+  margin: -12px;
+  border: 2px solid black;
+  width: 100px;
+  float: right;
+}
+#keterangan {
+  margin: 50px 15px 10px 15px;
+}
+
+@media (min-width: 992px) {
+  .Chicken, .Beef, .Sushi { 
+    float: left;
+    width: 25%;
+    }
+  }
+
+@media (min-width: 991px) and (max-width: 768px) {
+ .Chicken, .Beef, .Sushi { 
+    float: left;
+    width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+  .Chicken, .Beef, .Sushi { 
+    float: left;
+    width: 75%;}
+}
+
+  </style>
+</head>
+<body>
+ <header>
+  <h1> Our Menu </h1>
+  <div><section class="Chicken">
+  <h2>Chicken</h2>
+  <p id="keterangan">There are two popular method how to cook chicken.
+     Hunan chicken vs Szechuan chicken.
+     Hunan chicken use Doubanjiang, oyster sauce, chicken broth, 
+     soy sauce, rice wine, garlic, ginger, 
+     sugar, veggies, etc. Szechuan chicken use
+     Szechuan peppercorn, dried red chilis, green onions, 
+    garlic, ginger, salt, sugar etc.</p>
+    </section></div>
+  <div><section class="Beef">
+    <h2>Beef</h2>
+  <p id="keterangan">One of best beef taste is beef teriyaki.
+     The teriyaki sauce consists of soy sauce, mirin, sesame oil, 
+     fish sauce, ginger, garlic and brown sugar. The sauce gets 
+     nice and thick with a simple cornstarch slurry (1 teaspoon 
+     cornstarch + 1 tablespoon cold water) </p>
+   </section></div>
+  <section class="Sushi">
+  <h2>Sushi</h2>
+  <p id="keterangan">A popular item in any Japanese restaurant, Salmon Mentai Sushi is actually really fast and easy to make at home. You can burnt the mentai sauce  so you can smell the flavor. Adding cheese would be better. Sushi biasanya dibalut dengan nori. Nori terbuat dari rumput laut yang memiliki nutrisi yang sangat tinggi
+     </p>
